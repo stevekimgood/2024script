@@ -4,24 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<script>
-// var num = 10;
-// num = num +1;
-// document.write("hello world!! "" + num  + "입니다");
-// console.log('안녕하세요')
-</script>
-<script src="script.js"></script>
 </head>
-<body>
-    <div> class ="text">incDataddd</div>
-    <button type="button" onclick="alert('test')">클릭</button>
-<script>
-    var incData = 100;
-    document.write("incData++ = "+ ++incData +"<br>");
-    document.write("++incData = "+ ++incData +"<br>");
-    document.write("incData++ = "+ ++incData +"<br>");
-</script>
 
+<body>
+    <h1>test</h1>
+    <h2>test2</h2>
+    <h3>test3</h3>
+    <h4>test4</h4>
+    <h5>test</h5>
+    <h6>test</h6>
+    <p>Lorem ipsum dolor sit.</p>
+
+    <script>
+        var num = 10;
+        var num = 102;
+
+        document.write(num)
+
+        let myNum = 100;
+
+        let myNum = 10;
+        document.write(myNum)
+
+        for(초기값;조건문;증감){
+            document.write(i + "<br>")
+        }
+
+        let sum = 0;
+        for(let i=1;i<=10;i++){
+            sum = sum + i;
+            document.write(sum + "<br>")
+        }
+        document.write("총합은 : " + sum)
+
+        for(let i = 0; i < 10; i++){
+            document.write("3 x " + i + " = "+ 3*i + "<br>")
+        }
+
+        document.write("<hr>")
+        document.write("<div class='viewrap'>")
+
+        for(let dan = 1;dan<10;dan++){
+            document.write("<div class='view'>")
+            document.write(dan + "단" +"<br>")
+            for(let j=1;j++){
+                document.write(dan + " x "+ j + " = " +dan*j + "<br>")
+            }
+        }
+    </script>
 </body>
 </html>
 
